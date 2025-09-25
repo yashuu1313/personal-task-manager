@@ -1,18 +1,31 @@
-## Getting Started
+# Personal Task Manager (Java)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simple **console-based Task Manager** built in Java.  
+This project helps you **add, view, complete, and delete tasks** using Object-Oriented Programming concepts.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## Features
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- ✅ Add a new task (title, description, due date)  
+- ✅ View all tasks  
+- ✅ Mark tasks as completed  
+- ✅ Delete tasks  
+- ⚡ Easy to run in console  
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Technology Stack
 
-## Dependency Management
+- Java (OOP, Collections)  
+- Console-based interface  
+- Optional: File handling or database for future upgrades  
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+## How to Run
+
+1. Open terminal in your project folder.  
+2. Compile all Java files:
+```bash
+javac src/*.java -d out
